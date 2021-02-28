@@ -1,0 +1,47 @@
+// response from backend 
+{
+    "imageUrl":".....",
+    "title":"SILKY",
+    "categoryId": "4",
+    "items": // массив/лист скидок
+    [
+        {
+            "productId": 0, // идентификатор скидки
+            "title": "SHAMPOO 50", // название скидки 
+            "amount":
+            {
+                "value":154,
+                "currency":"$"
+            }
+        },
+        {
+            "productId": 1, // идентификатор скидки
+            "title": "conditioner", // название скидки 
+            "amount":
+            {
+                "value":34,
+                "currency":"$"
+            }
+        },
+        {
+           
+            "productId": 0, // идентификатор скидки
+            "title": "conditioner", // название скидки 
+            "amount":
+            {
+                "value":234,
+                "currency":"$"
+            }
+        },
+        {
+           
+            "productId": 0, // идентификатор скидки
+            "title": "conditioner", // название скидки 
+            "amount":
+            {
+                "value":134,
+                "currency":"$"
+            }
+        }
+    ]
+}
